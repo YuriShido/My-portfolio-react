@@ -1,0 +1,76 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    position: relative;
+   
+    .hero-left {
+        background-color: #7C7F6E;
+        width: 45%;
+        height: 100vh;
+        color: white;
+        // display: flex;
+        nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 70vh;
+            ul{
+                list-style: none;
+                
+                    li{
+                        padding: 1rem;
+
+                        .icon-b {
+                            color: white
+                        } 
+                    }
+                
+            }
+
+            
+        }
+
+        .top-img {
+            width: 35vw;
+            height: auto;
+            margin: 2rem 3rem;
+            // overflow: visible;
+            position:absolute;
+            top: 2.5rem;
+            left: 8rem;
+            overflow: hidden;
+        }
+    }
+
+    .hero-right {
+        width: 55%;
+        position: relative;
+        .name{
+            font-size: 6rem;
+            font-weight: 400;
+            margin-top: 10rem ;
+            text-align: center;
+            text-shadow: 1px 2px 5px rgba(245, 245, 245, 0.945);
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+            font-family: 'Sacramento', cursive;
+            // font-family: 'Homemade Apple', cursive;
+            // font-family: 'Pinyon Script', cursive;
+            // font-family: 'Great Vibes', cursive;
+            text-align: center;
+            margin-top: 0;
+        }
+        .top2-img {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 35vw;
+            height: auto;
+            margin: 5rem 0 0 8rem;
+            overflow: hidden;
+        }
+    }
+}

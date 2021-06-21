@@ -1,7 +1,28 @@
 .App {
-  text-align: center;
+  // text-align: center;
+  font-family: 'Prata', serif;
+  box-sizing: border-box;
+  margin: 0;
 }
 
+.title {
+  font-weight: 400;
+  font-size: 4rem;
+  margin: 0;
+  padding: 3rem;
+  position: relative;
+  // text-align: center;
+   .title::before {
+    content: "";
+    display: block;
+    left: 50%;
+    // filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+   }
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

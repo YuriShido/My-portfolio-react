@@ -1,0 +1,48 @@
+#about {
+    background-color: #E3DCD4;
+    padding: 2rem;
+    height: 100vh;
+
+    .title {
+        font-weight: 400;
+        font-size: 4rem;
+        margin: 0;
+        padding: 3rem;
+        
+        // text-align: center;
+    }
+
+    .about-container {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-between;
+        // align-items: center;
+        // padding: 2rem;
+        color: white;
+        .about-img {
+            width: 700px;
+            height: auto;
+            position: absolute;
+            // left:0;
+            // bottom: 0;
+        }
+
+        .about-detail {
+            text-align: center;
+            padding: 0 3rem;
+            width: 40%;
+            z-index: 5;
+            background-color: rgba(0, 0, 0, 0.8);
+            margin-top: 4rem;
+            .language-outer{
+                display: flex;
+                justify-content: space-evenly;
+
+                .language-icon {
+                    width: 4rem;
+                  }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+#Work {
+    background-color: #B1A29D;
+    min-height: 100vh;
+    padding: 2rem;
+
+    .title {
+        text-align: end;
+    }
+
+    .work-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        // align-items: center;
+        .work-box {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            .work-img {
+                width: 300px;
+            }
+            h3 {
+                margin: 0.3rem;
+            }
+            p {
+                margin: 0;
+            }
+        }
+    } 
+}

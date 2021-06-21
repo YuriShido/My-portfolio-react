@@ -1,0 +1,24 @@
+#Contact {
+    // background-color: #393A3C;
+    background-color: #767266;
+    background-color: #A35444;
+    background-color: #534846;
+    background-color: #716A69;
+    background-color: #AA776F;
+    color:whitesmoke;
+    color: black;
+    padding: 2rem;
+
+    .contact-container {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+            .img-box {
+                width: 65%;
+            }
+             img{
+                width: 95%;
+             }
+         
+    }
+}
