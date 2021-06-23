@@ -3,19 +3,11 @@
     padding: 2rem;
     height: 100vh;
 
-    .title {
-        font-weight: 400;
-        font-size: 4rem;
-        margin: 0;
-        padding: 3rem;
-        
-        // text-align: center;
-    }
 
     .about-container {
         display: flex;
         flex-wrap: wrap;
-        position: relative;
+        // position: relative;
         justify-content: space-between;
         // align-items: center;
         // padding: 2rem;
@@ -32,6 +24,7 @@
             text-align: center;
             padding: 0 3rem;
             width: 40%;
+            top:8rem;
             z-index: 5;
             background-color: rgba(0, 0, 0, 0.8);
             margin-top: 4rem;
@@ -43,6 +36,29 @@
                     width: 4rem;
                   }
             }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    #about {
+        .about-container {
+            display: flex;
+            flex-wrap: wrap;
+
+            .about-img {
+                width: 350px;
+               
+            }
+            .about-detail {
+                width: 80%;
+
+                .language-icon {
+                    width: 2rem;
+                  }
+            }
+
+
         }
     }
 }

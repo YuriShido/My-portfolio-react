@@ -22,3 +22,12 @@
          
     }
 }
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 12px;
+    }
+}
