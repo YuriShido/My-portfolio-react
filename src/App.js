@@ -13,7 +13,7 @@ function App() {
       <div className="App">
     {/* <Router> */}
         <Header />
-        <About />
+        {/* <About /> */}
         {/* <Route path='/about' component={About} /> */}
         <AboutNew/>
         {/* <Route path='/aboutNew' component={AboutNew} /> */}

@@ -5,10 +5,14 @@ import './AboutNew.scss'
 const About2 = () => {
     return (
         <div id="about2">
-            <h1 className="title">-ABOUT Me-</h1>
+
+            <div className="color-change">
+                <h1 className="title">-ABOUT Me-</h1>
+            </div>
 
             <div className="about-container2">
-                <img className="about-img2" src="/image/sunset-jamp2.jpg" alt="jump" />
+            {/* <img className="about-img2" src="/image/sunset-jamp2.jpg" alt="jump" /> */}
+
                 <div >
 
                 </div>
@@ -39,6 +43,11 @@ const About2 = () => {
                         </div>
                     </div>
                 </div>
+                <div className="img-box">
+                    {/* <img className="about-image-right" src="/image/camera.jpg" alt="jamp" /> */}
+
+                </div>
+
             </div>
         </div>
 

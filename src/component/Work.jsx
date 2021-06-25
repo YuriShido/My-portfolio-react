@@ -3,7 +3,10 @@ import './Work.scss'
 const Work = () => {
     return (
         <div id="Work">
-            <h1 className="title">-WORK-</h1>
+            {/* <div className="color-change"> */}
+                <h1 className="title">-WORK-</h1>
+            {/* </div> */}
+            <div className="pc-photo"></div>
             <div className="work-container" >   
                 <div className="work-box">
                     <a href="https://easymemo-app.netlify.app/ ">
