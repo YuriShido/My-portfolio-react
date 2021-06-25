@@ -1,0 +1,49 @@
+#Contact2 {
+
+    position: relative;
+    height: 100vh;
+    background-color: #AA776F;
+    color: black;
+    padding: 2rem;
+    .contact-container2 {
+        margin-left: 3rem;
+
+        .icon-b {
+            font-size: 1.5rem;
+            color: black;
+        }
+    }
+
+    .img-box2 {
+        position: absolute;
+        left:0;
+        bottom: 0;
+        width: 60%;
+        height: 50%;
+        background-image:url("../img/contact.jpg") ;
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+    }
+
+    .img-box-right2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 30%;
+        height: 60%;
+        background-image: url("../img/walk.JPG");
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+    }
+}
+
+
+@media (max-width: 480px) { 
+    #Contact2 {
+        .img-box-right2 {
+            top: 6rem;
+        }
+    }
+}

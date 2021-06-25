@@ -7,6 +7,8 @@ const Work = () => {
                 <h1 className="title">-WORK-</h1>
             {/* </div> */}
             <div className="pc-photo"></div>
+            <div className="work-wrapper">
+
             <div className="work-container" >   
                 <div className="work-box">
                     <a href="https://easymemo-app.netlify.app/ ">
@@ -37,6 +39,7 @@ const Work = () => {
                     <p>Using React Redux</p>
                 </div>
                 
+            </div>
             </div>
         </div>
     )

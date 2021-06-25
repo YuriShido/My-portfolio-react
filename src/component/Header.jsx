@@ -16,7 +16,7 @@ const Header = () => {
                             {/* <li><Link to='/about'>ABOUT</Link></li>
                             <li><Link to='/work'>WORK</Link></li>
                             <li><Link to='/contact'>CONTACT</Link></li> */}
-                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#about2">ABOUT</a></li>
                             <li><a href="#Work">WORK</a></li>
                             <li><a href="#Contact">CONTACT</a></li>
                             <li><a href="https://instagram.com" class="icon-b"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
