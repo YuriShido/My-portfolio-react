@@ -9,7 +9,7 @@ const Contact = () => {
                 <div>
                     <h2>Please contact me!</h2>
                     <p>sydonce57@gmail.com</p>
-                    <a href="https://instagram.com" class="icon-b"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com" class="icon-b"><i class="fab fa-instagram" aria-hidden="true"></i> </a>
                 </div>
                 <div className="img-box">
                     <img src="/image/contact.jpg" alt="jeans"/>

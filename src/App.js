@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 import './App.scss';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+// import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Header from'./component/Header'
-import About from './component/About'
+// import About from './component/About'
 import AboutNew from './component/AboutNew'
 
 import Work from './component/Work'
-import Contact from './component/Contact'
+// import Contact from './component/Contact'
 import Contact2 from './component/Contact2'
 
 function App() {
