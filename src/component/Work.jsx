@@ -11,11 +11,11 @@ const Work = () => {
 
             <div className="work-container" >   
                 <div className="work-box">
-                    <a href="https://easymemo-app.netlify.app/ ">
-                        <img className="work-img" src="/image/memoApp.png" alt="memo App"/>
+                    <a href="https://run-van-toilet.netlify.app/ ">
+                        <img className="work-img" src="/image/washroomApp.png" alt="washroom App"/>
                     </a>
-                    <h3>Memo App</h3>
-                    <p>Using React Redux</p>
+                    <h3>Washroom App</h3>
+                    <p>Using React Sass Node Mongo DB</p>
                 </div>
                 <div className="work-box">
                     <a href="https://easymemo-app.netlify.app/ ">
@@ -25,19 +25,19 @@ const Work = () => {
                     <p>Using React Redux</p>
                 </div>
                 <div className="work-box">
+                    <a href="https://elastic-chandrasekhar-4dbe00.netlify.app/ ">
+                        <img className="work-img" src="/image/weatherApp.png" alt="weather App"/>
+                    </a>
+                    <h3>Weather Beer App</h3>
+                    <p>Using React Sass</p>
+                </div>
+                {/* <div className="work-box">
                     <a href="https://easymemo-app.netlify.app/ ">
                         <img className="work-img" src="/image/memoApp.png" alt="memo App"/>
                     </a>
                     <h3>Memo App</h3>
                     <p>Using React Redux</p>
-                </div>
-                <div className="work-box">
-                    <a href="https://easymemo-app.netlify.app/ ">
-                        <img className="work-img" src="/image/memoApp.png" alt="memo App"/>
-                    </a>
-                    <h3>Memo App</h3>
-                    <p>Using React Redux</p>
-                </div>
+                </div> */}
                 
             </div>
             </div>

@@ -20,7 +20,7 @@ function App() {
         {/* <Route path='/aboutNew' component={AboutNew} /> */}
         <Work />
         {/* <Route path='/work' component={Work} /> */}
-        <Contact />
+        {/* <Contact /> */}
         {/* <Route path='/contact' component={Contact} /> */}
         <Contact2 />
      {/* </Router> */}

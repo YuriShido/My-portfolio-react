@@ -44,6 +44,12 @@
             // background: rgba(0, 0, 0, 0.651);
             // color: white;
             padding: 1rem;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: all 0.3s ease-out;
+
+            }
             .work-img {
                 width: 300px;
             }
