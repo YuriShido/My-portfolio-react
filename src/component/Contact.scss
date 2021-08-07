@@ -1,35 +1,62 @@
-#Contact {
-    // background-color: #393A3C;
-    background-color: #767266;
-    background-color: #A35444;
-    background-color: #534846;
-    background-color: #716A69;
+#Contact2 {
+
+    position: relative;
+    height: 100vh;
     background-color: #AA776F;
-    color:whitesmoke;
     color: black;
     padding: 2rem;
-    border-bottom: 2px solid;
-    height: 100vh;
+    .contact-container2 {
+        margin-left: 3rem;
 
-    .contact-container {
-        text-align: center;
-        display: flex;
-        justify-content: space-around;
-            .img-box {
-                width: 65%;
-            }
-             img{
-                width: 95%;
-             }
-         
+        .icon-b {
+            font-size: 1.5rem;
+            color: black;
+        }
     }
+
+    .img-box2 {
+        position: absolute;
+        left:0;
+        bottom: 0;
+        width: 60%;
+        height: 50%;
+        background-image:url("../img/contact.jpg") ;
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+    }
+
+    .img-box-right2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 30%;
+        height: 60%;
+        background-image: url("../img/walk.JPG");
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+    }
+
+    .email {
+        color: black;
+    } 
 }
 
-@media (max-width: 480px) {
-    h2 {
-        font-size: 1rem;
-    }
-    p {
-        font-size: 12px;
+
+@media (max-width: 480px) { 
+    #Contact2 {
+        .img-box-right2 {
+            top: 6rem;
+        }
+
+        .contact-container2 {
+            margin-left: 1rem;
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+
     }
 }

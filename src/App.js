@@ -1,13 +1,10 @@
-// import logo from './logo.svg';
+
 import './App.scss';
 // import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Header from'./component/Header'
-// import About from './component/About'
-import AboutNew from './component/AboutNew'
-
+import About from './component/About'
 import Work from './component/Work'
-// import Contact from './component/Contact'
-import Contact2 from './component/Contact2'
+import Contact from './component/Contact'
 import Footer from './component/Footer'
 
 function App() {
@@ -15,15 +12,13 @@ function App() {
       <div className="App">
     {/* <Router> */}
         <Header />
-        {/* <About /> */}
         {/* <Route path='/about' component={About} /> */}
-        <AboutNew/>
+        <About/>
         {/* <Route path='/aboutNew' component={AboutNew} /> */}
         <Work />
         {/* <Route path='/work' component={Work} /> */}
-        {/* <Contact /> */}
         {/* <Route path='/contact' component={Contact} /> */}
-        <Contact2 />
+        <Contact />
         <Footer />
      {/* </Router> */}
       </div>
