@@ -17,14 +17,14 @@ const About = () => {
 
                 </div>
                 <div className="about-detail">
-                    <h3>Front-end Web developer</h3>
+                    <h2>Front-end Web developer</h2>
                     {/* <p>Born in Japan.
                     Used to work in bank, moved to Canada from 2018.
                     Start learning coding in 2020. Design and make website. Keep learning other languages.</p> */}
                     <p>Front-end Web developer based on Vancouver.<br /> 
                     Passionate to create a nice designe website and apprication that makes popple's life easier and helpful. <br />
                     Activily looking for new oppotunity in webdevelopment.</p>
-                    <h4>Language</h4>
+                    <h3>Language</h3>
                     <div class="language-outer">
 
                         <div class="language-div">
