@@ -25,26 +25,26 @@ const About = () => {
                     Passionate to create a nice designe website and apprication that makes popple's life easier and helpful. <br />
                     Activily looking for new oppotunity in webdevelopment.</p>
                     <h3>Language</h3>
-                    <div class="language-outer">
+                    <div className="language-outer">
 
-                        <div class="language-div">
-                            <img class="language-icon" src="/image/html.png" alt="html icon" />
+                        <div className="language-div">
+                            <img className="language-icon" src="/image/html.png" alt="html icon" />
                             <p>HTML</p>
                         </div>
-                        <div class="language-div">
-                            <img class="language-icon" src="/image/css.png" alt="css icon" />
+                        <div className="language-div">
+                            <img className="language-icon" src="/image/css.png" alt="css icon" />
                             <p>CSS</p>
                         </div>
-                        <div class="language-div">
-                            <img class="language-icon" src="/image/javascript.png" alt="Javascript icon" />
+                        <div className="language-div">
+                            <img className="language-icon" src="/image/javascript.png" alt="Javascript icon" />
                             <p>JavaScript</p>
                         </div>
-                        <div class="language-div">
-                            <img class="language-icon" src="/image/sass.png" alt="Sass icon" />
+                        <div className="language-div">
+                            <img className="language-icon" src="/image/sass.png" alt="Sass icon" />
                             <p>Sass</p>
                         </div>
-                        <div class="language-div">
-                            <img class="language-icon" src="/image/react.png" alt="React icon" />
+                        <div className="language-div">
+                            <img className="language-icon" src="/image/react.png" alt="React icon" />
                             <p>React</p>
                         </div>
                     </div>
