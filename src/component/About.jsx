@@ -23,7 +23,7 @@ const About = () => {
                     Start learning coding in 2020. Design and make website. Keep learning other languages.</p> */}
                     <p>Front-end Web developer based on Vancouver.<br /> 
                     Passionate to create a nice designe website and apprication that makes popple's life easier and helpful. <br />
-                    Activily looking for new oppotunity in web development.</p>
+                    Activily looking for new oppotunity in web development and designe.</p>
                     <h3>Skills</h3>
                     <div className="language-outer">
 
