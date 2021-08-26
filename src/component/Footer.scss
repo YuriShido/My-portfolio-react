@@ -8,6 +8,12 @@
     a {
         color: rgb(230, 230, 230);
         margin: 0.7rem;
+
+        &:hover {
+            color: #AA776F;
+            transition: color ease-out 0.3s;
+        }
+        
     }
 
     .copy-right {
