@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div id="footer">
             <a href="/"><i className="fas fa-home"></i> Home</a>
-            <p className="copy-right">&copy; Yuri Shido 2021, All Right Reserved</p>
+            <p className="copy-right">&copy; Yuri Shido 2021, All Rights Reserved</p>
         </div>
     )
 }
