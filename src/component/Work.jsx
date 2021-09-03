@@ -73,7 +73,8 @@ const Work = () => {
                     <h2>e-plus spa webpage</h2>
                     <div className='useLng'>
                     <p className="lang">HTML5</p>
-                    <p className="lang">CSS3</p>
+                    <p className="lang">Sass</p>
+                    <p className="lang">JavaScript</p>
                     </div>
                     <p className="discription">The Mobile massuse website that shows her business in Japan.</p>
 

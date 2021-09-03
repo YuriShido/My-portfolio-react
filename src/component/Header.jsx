@@ -12,7 +12,7 @@ const Header = () => {
             <div className="hero">
                 <div className="hero-left">
                     <nav >
-                        <ul>
+                        <ul className="animate__animated animate__fadeInLeft">
                             {/* <li><Link to='/about'>ABOUT</Link></li>
                             <li><Link to='/work'>WORK</Link></li>
                             <li><Link to='/contact'>CONTACT</Link></li> */}
@@ -23,7 +23,7 @@ const Header = () => {
                         </ul>
                     </nav>
                     <div>
-                        <img className='top-img' src='/image/top4.jpg' alt="top" />
+                        <img className='top-img animate__animated animate__fadeInLeft' src='/image/top4.jpg' alt="top" />
 
                     </div>
                 </div>
@@ -43,9 +43,9 @@ const Header = () => {
                             <span className="c9">o</span>
                         </h1>
                     </div>
-                    <img className="top2-img" src='/image/top2.jpg' alt="top" />
+                    <img className="top2-img animate__animated animate__fadeInUp" src='/image/top2.jpg' alt="top" />
                     <div className="color-change">
-                        <h2>Be Yourself Be Happy</h2>
+                        <h2 className="animate__animated animate__fadeInUp">Be Yourself Be Happy</h2>
                     </div>
 
                     {/* <div className="color-change"> */}

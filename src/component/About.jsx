@@ -7,7 +7,7 @@ const About = () => {
         <div id="about">
 
             <div className="color-change">
-                <h1 className="title">-ABOUT ME-</h1>
+                <h1 className="title animate__animated animate__fadeInLeft">-ABOUT ME-</h1>
             </div>
 
             <div className="about-container">
