@@ -1,5 +1,5 @@
 #Work {
-    background-color: #B1A29D;
+    background-color: #f3e8e2;
     min-height: 100vh;
     padding: 2rem;
     position: relative;
@@ -10,6 +10,7 @@
         // mix-blend-mode: difference;
         // color: white;
         padding-bottom: 1.2rem;
+        z-index: 10;
     }
     .pc-photo {
         background-image: url("../img/pc.jpg");
@@ -20,7 +21,16 @@
         height: 80%;
         left: 0;
         bottom: 0;
-        z-index: 0;
+        z-index: 5;
+    }
+    .rightSide-color {
+        background-color: #B1A29D;
+        width: 70%;
+        height: 80%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 3;
     }
     .work-container {
         position: absolute;
@@ -30,7 +40,7 @@
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
-        z-index: 5;
+        z-index: 10;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
