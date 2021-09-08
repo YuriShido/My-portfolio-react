@@ -60,11 +60,13 @@
             background-image: url("../img/camera2.jpg");
             background-size: cover;
 
-            // .about-image-right {
-            //     // width: 100%;
-            //     height: 100%;
-            //     overflow: hidden;
-            // }
+            //fixed back-ground//
+            // background-attachment: fixed;
+            // background-repeat: no-repeat;
+            // background-position: center center;
+            // z-index: 2;
+            //********
+    
         }
     }
 }

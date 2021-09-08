@@ -6,11 +6,21 @@
     color: black;
     padding: 2rem;
     .contact-container {
-        margin-left: 3rem;
-
+        // margin-left: 3rem;
+        margin-right: 5rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
         .icon-b {
             font-size: 1.5rem;
             color: black;
+            margin-right: 1rem;
+        }
+
+        h2 {
+            font-family: 'Sacramento', cursive;
+            font-size: 1.8rem;
+            margin: 0.5rem 0;
         }
     }
 

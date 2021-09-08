@@ -11,6 +11,8 @@ const Header = () => {
         <header>
             <div className="hero">
                 <div className="hero-left">
+                    {/* <img className="ico
+                    n" src="/image/favicon.png" alt="icon"/> */}
                     <nav >
                         <ul className="animate__animated animate__fadeInLeft">
                             {/* <li><Link to='/about'>ABOUT</Link></li>

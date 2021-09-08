@@ -1,5 +1,5 @@
 #Work {
-    background-color: #f3e8e2;
+    // background-color: #f3e8e2;
     min-height: 100vh;
     padding: 2rem;
     position: relative;
@@ -7,8 +7,8 @@
         // position: absolute;
         // z-index: 10;
         text-align: end;
-        // mix-blend-mode: difference;
-        // color: white;
+        mix-blend-mode: difference;
+        color: white;
         padding-bottom: 1.2rem;
         z-index: 10;
     }
@@ -17,11 +17,13 @@
         background-size: cover;
         background-position: center;
         position: absolute;
-        width: 76%;
-        height: 80%;
+        // width: 76%;
+        width: 100%;
+        height: 100%;
         left: 0;
         bottom: 0;
         z-index: 5;
+        background-attachment: fixed;
     }
     .rightSide-color {
         background-color: #B1A29D;

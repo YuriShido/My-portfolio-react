@@ -1,9 +1,11 @@
+$base-color:rgb(238, 238, 238);
+
 .hero {
     height: 100vh;
     display: flex;
     width: 100vw;
     position: relative;
-    background-color: white;
+    background-color:$base-color;
     overflow: hidden;
     .hero-left {
         background-color: #7C7F6E;
@@ -11,6 +13,11 @@
         height: 100vh;
         color: white;
         // display: flex;
+
+        // .icon {
+        //     width: 50px;
+        //     height: auto;
+        // }
         nav {
             display: flex;
             flex-direction: column;

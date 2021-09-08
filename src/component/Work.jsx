@@ -3,9 +3,9 @@ import './Work.scss'
 const Work = () => {
     return (
         <div id="Work">
-            {/* <div className="color-change"> */}
+            <div className="color-change">
             <h1 className="title">-WORK-</h1>
-            {/* </div> */}
+            </div>
             <div className="pc-photo"></div>
             <div className="work-wrapper">
 
