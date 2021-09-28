@@ -9,7 +9,7 @@ const Contact = () => {
                 <div>
                     <h2>Reach me here!</h2>
                     <a href="mailto:yurishido57@gmail.com" className="email"><p>yurishido57@gmail.com</p></a>
-                    <a href="https://instagram.com" className="icon-b"><i className="fab fa-instagram" aria-hidden="true"></i> </a>
+                    <a href="https://www.instagram.com/yuris1117/" className="icon-b"><i className="fab fa-instagram" aria-hidden="true"></i> </a>
                     <a href="https://www.linkedin.com/in/yuri-shido-b139b621b/" className="icon-b"><i className="fab fa-linkedin"></i></a>
                     <a href="https://github.com/YuriShido" className="icon-b"><i className="fab fa-github"></i></a>
                 </div>

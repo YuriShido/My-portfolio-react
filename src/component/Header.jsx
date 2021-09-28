@@ -21,7 +21,7 @@ const Header = () => {
                             <li><a href="#about">ABOUT</a></li>
                             <li><a href="#Work">WORK</a></li>
                             <li><a href="#Contact">CONTACT</a></li>
-                            <li><a href="https://instagram.com" className="icon-b"><i className="fab fa-instagram" aria-hidden="true"></i> </a></li>
+                            <li><a href="https://www.instagram.com/yuris1117/" className="icon-b"><i className="fab fa-instagram" aria-hidden="true"></i> </a></li>
                         </ul>
                     </nav>
                     <div>

@@ -17,13 +17,13 @@ const About = () => {
 
                 </div>
                 <div className="about-detail">
-                    <h2>Front-end Web developer</h2>
+                    <h2>Front-end Web developer  Web designer</h2>
                     {/* <p>Born in Japan.
                     Used to work in bank, moved to Canada from 2018.
                     Start learning coding in 2020. Design and make website. Keep learning other languages.</p> */}
-                    <p>Front-end Web Developer based in Vancouver.<br /> 
-                    Passionate about creating beautifully designed websites and applications that make people's lives easier. <br />
-                    Actively looking for new opportunities in web development and design.</p>
+                    <p>Front-end Web Developer, Web Designer based in Vancouver.<br /> 
+                    Passionate about creating clear designed websites and applications that make people's lives easier. <br />
+                    Actively looking for new opportunities in web design and development.</p>
                     <h3>Skills</h3>
                     <div className="language-outer">
 
@@ -46,6 +46,10 @@ const About = () => {
                         <div className="language-div">
                             <img className="language-icon" src="/image/react.png" alt="React icon" />
                             <p>React</p>
+                        </div>
+                        <div className="language-div">
+                            <img className="language-icon" src="/image/photoshop.png" alt="Photoshop icon" />
+                            <p>Photoshop</p>
                         </div>
                     </div>
                 </div>

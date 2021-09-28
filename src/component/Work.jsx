@@ -25,7 +25,8 @@ const Work = () => {
                         </div>
                         <p className="discription">The washroom app that you can find and add washroom location in Vancouver.</p>
 
-                    </div><div className="work-box">
+                    </div>
+                    <div className="work-box">
                         <a href="https://find-web-job-tweets.netlify.app/ ">
                             <img className="work-img" src="/image/find-tweets-app4.png" alt="find tweet app" />
                         </a>
@@ -38,6 +39,32 @@ const Work = () => {
                             <p className="lang">Twitter API</p>
                         </div>
                         <p className="discription">The finding web job tweets from twitter. This App also be able to search whatever user wants.</p>
+
+                    </div>
+                    <div className="work-box">
+                        <a href="https://synapse65edmonds.ca/ ">
+                            <img className="work-img" src="/image/synaps65.png" alt="clinic website" />
+                        </a>
+                        <h2>Synaps65 Clinic webpage</h2>
+                        {/* <p>React Node</p> */}
+                        <div className='useLng'>
+                            <p className="lang">WordPress</p>
+                            <p className="lang">Photoshop</p>
+                        </div>
+                        <p className="discription">Health care clinic website. I worked for updating website.</p>
+
+                    </div>
+                    <div className="work-box">
+                        <a href="https://c-plus-nousenjyou.netlify.app/ ">
+                            <img className="work-img" src="/image/e-plus.png" alt="e-plus website" />
+                        </a>
+                        <h2>e-plus spa webpage</h2>
+                        <div className='useLng'>
+                            <p className="lang">HTML5</p>
+                            <p className="lang">Sass</p>
+                            <p className="lang">JavaScript</p>
+                        </div>
+                        <p className="discription">The Mobile massuse website that shows her business in Japan.</p>
 
                     </div>
                     <div className="work-box">
@@ -66,19 +93,6 @@ const Work = () => {
 
                     </div>
 
-                    <div className="work-box">
-                        <a href="https://c-plus-nousenjyou.netlify.app/ ">
-                            <img className="work-img" src="/image/e-plus.png" alt="e-plus website" />
-                        </a>
-                        <h2>e-plus spa webpage</h2>
-                        <div className='useLng'>
-                            <p className="lang">HTML5</p>
-                            <p className="lang">Sass</p>
-                            <p className="lang">JavaScript</p>
-                        </div>
-                        <p className="discription">The Mobile massuse website that shows her business in Japan.</p>
-
-                    </div>
                     {/* <div className="work-box">
                     <a href="https://easymemo-app.netlify.app/ ">
                         <img className="work-img" src="/image/memoApp.png" alt="memo App"/>
