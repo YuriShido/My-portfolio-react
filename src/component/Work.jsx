@@ -17,12 +17,12 @@ const Work = () => {
                         </a>
 
                         <div>
-                        <h2>WASHROOM APP</h2>
+                        <h2>WASHROOM WEB APP</h2>
                         {/* <p>React Sass Node Mongo DB</p> */}
                         <div className='useLng'>
                             <p className="lang washroom-lang">React</p>
                             <p className="lang washroom-lang">Sass</p>
-                            <p className="lang washroom-lang">Node</p>
+                            <p className="lang washroom-lang">Node.js</p>
                             <p className="lang washroom-lang">MongoDB</p>
                             <p className="lang washroom-lang">GoogleMap API</p>
                         </div>
