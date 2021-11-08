@@ -23,7 +23,7 @@
         .about-detail {
             width: 525px;
             text-align: center;
-            padding: 0 2rem;
+            padding:1rem 2rem;
             justify-content: end;
             position: absolute;
             left: 10%;
@@ -34,12 +34,15 @@
             z-index: 3;
             background-color: rgba(240, 248, 255, 0.733);
             background-color: rgba(0, 0, 0, 0.8);
-            color: white;
+             background-color: #b1a29db9;
+             background-color: #584c4ae0;
+            //  background-color: #493f38e0;
+             color: rgb(230, 230, 230);
             h2 {
                 font-size: 23px;
                 font-family: 'Montserrat', sans-serif;
                 // font-family: 'Lato', sans-serif;
-                // font-weight: bold;
+                // color: #262626;
             }
 
             h3 {
