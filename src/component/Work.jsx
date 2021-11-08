@@ -6,7 +6,8 @@ const Work = () => {
             <div className="color-change">
             <h1 className="title">-WORK-</h1>
             </div>
-            <div className="pc-photo"></div>
+            <div className="pc-photo">
+
             <div className="work-wrapper">
 
                 <div className="work-container" >
@@ -14,7 +15,9 @@ const Work = () => {
                         <a href="https://run-van-toilet.netlify.app/ ">
                             <img className="work-img" src="/image/washroomApp.png" alt="washroom App" />
                         </a>
-                        <h2>Washroom App</h2>
+
+                        <div>
+                        <h2>WASHROOM APP</h2>
                         {/* <p>React Sass Node Mongo DB</p> */}
                         <div className='useLng'>
                             <p className="lang washroom-lang">React</p>
@@ -24,13 +27,15 @@ const Work = () => {
                             <p className="lang washroom-lang">GoogleMap API</p>
                         </div>
                         <p className="discription">The washroom app that you can find and add washroom location in Vancouver.</p>
+                        </div>
 
                     </div>
                     <div className="work-box">
                         <a href="https://find-web-job-tweets.netlify.app/ ">
                             <img className="work-img" src="/image/find-tweets-app4.png" alt="find tweet app" />
                         </a>
-                        <h2>Find Web Job Tweets</h2>
+                        <div>
+                        <h2>FIND WEB JOB TWEETS</h2>
                         {/* <p>React Node</p> */}
                         <div className='useLng'>
                             <p className="lang">React</p>
@@ -39,71 +44,81 @@ const Work = () => {
                             <p className="lang">Twitter API</p>
                         </div>
                         <p className="discription">The finding web job tweets from twitter. This App also be able to search whatever user wants.</p>
+                        </div>
 
                     </div>
                     <div className="work-box">
                         <a href="https://synapse65edmonds.ca/ ">
                             <img className="work-img" src="/image/synaps65.png" alt="clinic website" />
                         </a>
-                        <h2>Synaps65 Clinic webpage</h2>
+                        <div>
+
+                        <h2>SYNAPSE65 CLINIC WEBSITE</h2>
                         {/* <p>React Node</p> */}
                         <div className='useLng'>
                             <p className="lang">WordPress</p>
                             <p className="lang">Photoshop</p>
                         </div>
                         <p className="discription">Health care clinic website. I worked for updating website.</p>
+                        </div>
 
                     </div>
                     <div className="work-box">
                         <a href="https://c-plus-nousenjyou.netlify.app/ ">
                             <img className="work-img" src="/image/e-plus.png" alt="e-plus website" />
                         </a>
-                        <h2>e-plus spa webpage</h2>
+                        <div>
+                        <h2>C-PLUS SPA WEBSITE</h2>
                         <div className='useLng'>
                             <p className="lang">HTML5</p>
                             <p className="lang">Sass</p>
                             <p className="lang">JavaScript</p>
                         </div>
                         <p className="discription">The Mobile massuse website that shows her business in Japan.</p>
+                        </div>
 
                     </div>
                     <div className="work-box">
                         <a href="https://easymemo-app.netlify.app/ ">
                             <img className="work-img" src="/image/memoApp.png" alt="memo App" />
                         </a>
-                        <h2>Memo App</h2>
+                        <div>
+                        <h2>MEMO APP</h2>
                         <div className='useLng'>
                             <p className="lang">React</p>
                             <p className="lang">Redux</p>
                             <p className="lang">Material-UI</p>
                         </div>
                         <p className="discription">The Memo app that you can create your own memo that you want remember.</p>
+                        </div>
                     </div>
                     <div className="work-box">
                         <a href="https://elastic-chandrasekhar-4dbe00.netlify.app/ ">
                             <img className="work-img" src="/image/weatherApp.png" alt="weather App" />
                         </a>
-                        <h2>Weather Beer App</h2>
+                        <div>
+                        <h2>WEATHER BEER APP</h2>
                         <div className='useLng'>
                             <p className="lang">React</p>
                             <p className="lang">Sass</p>
                         </div>
                         {/* <p>React Sass</p> */}
                         <p className="discription">The Weather App that recomend suitble beer depends on the weather.</p>
+                        </div>
 
                     </div>
-
-                    {/* <div className="work-box">
-                    <a href="https://easymemo-app.netlify.app/ ">
-                        <img className="work-img" src="/image/memoApp.png" alt="memo App"/>
-                    </a>
-                    <h3>Memo App</h3>
-                    <p>Using React Redux</p>
-                </div> */}
-
+                    
+                        <h1 className="graphic">Graphic Design</h1>
+                    <div className="work-box">
+                        <img className="graphic-image" src="/image/Acupuncture.png" alt="acupuncture-flyer"/>
+                        <img className="graphic-image" src="/image/Special-event.jpg" alt="special event flyer"/>
+                        <img className="graphic-image" src="/image/Happyhour.jpg" alt="happy hour flyer"/>
+                    </div>
+                    
                 </div>
+                </div>
+            {/* <div className="rightSide-color"></div> */}
             </div>
-            <div className="rightSide-color"></div>
         </div>
     )
 }
